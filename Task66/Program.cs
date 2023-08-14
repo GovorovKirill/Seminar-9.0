@@ -40,7 +40,7 @@ int SumNaturalNumbersRange(int n1, int n2, int sum = 0)
             }
         }
 
-        else 
+        else
         {
             sum = sum + n1;
         }
