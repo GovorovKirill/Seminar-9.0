@@ -11,11 +11,7 @@ NaturalNumbers(number);
 
 void NaturalNumbers(int num)
 {
-    if (num < 1)
-    {
-        Console.WriteLine("Число не является натуральным");
-        return;
-    }
+    if (num < 0) Console.WriteLine("Число не является натуральным");
 
     else
     {
@@ -24,6 +20,3 @@ void NaturalNumbers(int num)
         NaturalNumbers(num - 1);
     }
 }
-
-
-
